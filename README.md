@@ -8,13 +8,13 @@ This document provides a categorized list of popular microcontrollers, their off
 - [ESP32](#esp32)
 - [STM32](#stm32)
 - [Teensy](#teensy)
-- [PIC](#pic)
-- [MSP430](#msp430)
-- [NXP](#nxp)
+- [PIC Microcontrollers](#pic-microcontrollers)
+- [MSP430 Microcontrollers](#msp430-microcontrollers)
 - [BeagleBone](#beaglebone)
 - [Renesas RX Family](#renesas-rx-family)
 - [Infineon XMC Family](#infineon-xmc-family)
 - [ELAN Microelectronics](#elan-microelectronics)
+- [Microcontroller Comparison Table](#microcontroller-comparison-table)
 - [Additional Resources](#additional-resources)
 
 ---
@@ -186,7 +186,6 @@ ELAN Microelectronics Corporation specializes in microcontroller integrated circ
 | **EM78P809N** | [EM78P809N Documentation](https://www.emc.com.tw/upload/2019_01_15%280_0%29b2/EM78P809N.pdf) | [Buy on Sourcengine](https://www.sourcengine.com/part-info/EM78P809N-8324355235) |
 | **EM78F811N** | [EM78F811N Documentation](https://www.emc.com.tw/upload/2019_01_15%280_0%29b2/EM78F811N.pdf) | [Buy on ELAN Microelectronics](https://www.emc.com.tw/emc/en/Product/Product/detail/137) |
 
-## Microcontroller Comparison Table
 ## Microcontroller Comparison Table
 
 This table provides a comparative overview of various microcontroller platforms, highlighting key specifications to assist in selecting the appropriate board for your project.
