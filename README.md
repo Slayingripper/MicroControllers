@@ -56,137 +56,216 @@ ESP32 is a powerful Wi-Fi and Bluetooth-enabled microcontroller developed by Esp
 | **ESP32-C6**            | [ESP32-C6 Documentation](https://www.espressif.com/en/products/socs/esp32-c6)                      | [Buy on Espressif Store](https://www.espressif.com/en/products/devkits/esp32-c6-devkitc-1)       |
 
 
+
+# Comprehensive List of Microcontrollers
+
+This document provides a categorized list of popular microcontrollers, their official documentation, and links to purchase them. The microcontrollers are grouped into families such as Arduino, ESP32, STM32, Teensy, and others for easier navigation.
+
+## Table of Contents
+
+- [Arduino](#arduino)
+- [ESP32](#esp32)
+- [STM32](#stm32)
+- [Teensy](#teensy)
+- [PIC](#pic)
+- [MSP430](#msp430)
+- [NXP](#nxp)
+- [BeagleBone](#beaglebone)
+- [Other Microcontrollers](#other-microcontrollers)
+- [Additional Resources](#additional-resources)
+
+---
+
+## Arduino
+
+Arduino is a popular open-source electronics platform based on easy-to-use hardware and software. It is widely used for building digital devices and interactive objects.
+
+| **Microcontroller**        | **Documentation**                                                                 | **Buy Link**                                                                                     |
+|----------------------------|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| **Arduino Uno**            | [Arduino Uno Documentation](https://www.arduino.cc/en/Guide/ArduinoUno)           | [Buy on Arduino Store](https://store.arduino.cc/products/arduino-uno-rev3)                      |
+| **Arduino Mega 2560**      | [Arduino Mega Documentation](https://www.arduino.cc/en/Guide/ArduinoMega2560)     | [Buy on Arduino Store](https://store.arduino.cc/products/arduino-mega-2560-r3)                   |
+| **Arduino Nano**           | [Arduino Nano Documentation](https://www.arduino.cc/en/Guide/ArduinoNano)         | [Buy on SparkFun](https://www.sparkfun.com/products/15623)                                      |
+| **Arduino Leonardo**       | [Arduino Leonardo Documentation](https://www.arduino.cc/en/Guide/ArduinoLeonardo) | [Buy on Adafruit](https://www.adafruit.com/product/4298)                                       |
+
+---
+
+## ESP32
+
+ESP32 is a powerful Wi-Fi and Bluetooth-enabled microcontroller developed by Espressif Systems, suitable for a wide range of IoT applications.
+
+| **Microcontroller**    | **Documentation**                                                                                               | **Buy Link**                                                                                                          |
+|------------------------|-----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| **ESP32 DevKitC**      | [ESP32 DevKitC Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/dev-boards.html) | [Buy on Espressif Store](https://www.espressif.com/en/products/devkits/esp32-devkitc/overview)                        |
+| **ESP32-WROOM-32**     | [ESP32-WROOM-32 Documentation](https://www.espressif.com/en/products/modules/esp32)                            | [Buy on Digi-Key](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-WROOM-32D/7895131)                  |
+| **ESP32 Pico Kit**     | [ESP32 Pico Kit Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32pico.html) | [Buy on Mouser](https://www.mouser.co.uk/c/?q=ESP32-PICO-KIT)  |
+| **ESP32-S2-Saola-1**   | [ESP32-S2-Saola-1 Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/get-started/index.html) | [Buy on SparkFun](https://www.sparkfun.com/products/retired/15258)                                                 |
+| **ESP32-C3-DevKitM-1** | [ESP32-C3-DevKitM-1 Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/get-started/index.html) | [Buy on Digi-Key](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C3-DEVKITM-1/11934230)              |
+
+---
+
 ## STM32
 
-The STM32 family, developed by STMicroelectronics, offers a broad range of 32-bit microcontrollers based on the ARM Cortex-M processor, catering to various performance and application requirements.
+STM32 is a family of 32-bit microcontrollers from STMicroelectronics, known for their performance and versatility in various applications.
 
-| **Microcontroller**          | **Documentation**                                                                 | **Buy Link**                                                                                 |
-|------------------------------|------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| **STM32F103C8T6 (Blue Pill)**| [STM32F103 Documentation](https://www.st.com/en/microcontrollers/stm32f103.html)   | [Buy on Digi-Key](https://www.digikey.com/en/products/detail/stmicroelectronics/STM32F103C8T6) |
-| **STM32F401RE (Nucleo-64)**  | [STM32F401RE Documentation](https://www.st.com/en/microcontrollers/stm32f401.html)| [Buy on STMicroelectronics](https://www.st.com/en/evaluation-tools/nucleo-f401re.html)       |
-| **STM32F746ZG (Nucleo-144)** | [STM32F746ZG Documentation](https://www.st.com/en/microcontrollers/stm32f746.html)| [Buy on Mouser](https://www.mouser.com/ProductDetail/STMicroelectronics/NUCLEO-F746ZG)       |
-| **STM32L432KC (Nucleo-32)**  | [STM32L432KC Documentation](https://www.st.com/en/microcontrollers/stm32l432.html)| [Buy on Arrow](https://www.arrow.com/en/products/nucleo-l432kc/stmicroelectronics)           |
-| **STM32H743ZI (Nucleo-144)** | [STM32H743ZI Documentation](https://www.st.com/en/microcontrollers/stm32h743.html)| [Buy on Digi-Key](https://www.digikey.com/en/products/detail/stmicroelectronics/NUCLEO-H743ZI) |
-| **STM32G071RB (Nucleo-64)**  | [STM32G071RB Documentation](https://www.st.com/en/microcontrollers/stm32g071.html)| [Buy on Mouser](https://www.mouser.com/ProductDetail/STMicroelectronics/NUCLEO-G071RB)       |
-| **STM32WB55RG (Nucleo-68)**  | [STM32WB55RG Documentation](https://www.st.com/en/microcontrollers/stm32wb55.html)| [Buy on Arrow](https://www.arrow.com/en/products/nucleo-wb55rg/stmicroelectronics)           |
-| **STM32F303RE (Nucleo-64)**  | [STM32F303RE Documentation](https://www.st.com/en/microcontrollers/stm32f303.html)| [Buy on Digi-Key](https://www.digikey.com/en/products/detail/stmicroelectronics/NUCLEO-F303RE) |
-| **STM32L476RG (Nucleo-64)**  | [STM32L476RG Documentation](https://www.st.com/en/microcontrollers/stm32l476.html)| [Buy on Mouser](https://www.mouser.com/ProductDetail/STMicroelectronics/NUCLEO-L476RG)       |
-| **STM32F767ZI (Nucleo-144)** | [STM32F767ZI Documentation](https://www.st.com/en/microcontrollers/stm32f767.html)| [Buy on Arrow](https://www.arrow.com/en/products/nucleo-f767zi/stmicroelectronics)           |
+| **Microcontroller**          | **Documentation**                                                                                              | **Buy Link**                                                                                                  |
+|------------------------------|----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **STM32F103C8T6 (Blue Pill)**| [STM32F103C8T6 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=STM32F103C8T6)                             | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=STM32F103C8T6)               |
+| **STM32Nucleo-64**           | [STM32Nucleo-64 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=STM32Nucleo-64)                    | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=STM32Nucleo-64)                      |
+| **STM32L476 Discovery**      | [STM32L476 Discovery Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=STM32L476VG-DISCO)               | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=STM32L476VG-DISCO)                  |
+| **STM32F4 Discovery**         | [STM32F4 Discovery Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=STM32F4DISCOVERY)                         | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=STM32F4DISCOVERY)                         |
+| **STM32H743ZI**               | [STM32H743ZI Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=STM32H743ZI) | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=STM32H743ZI)                  |
+| **STM32F7 Discovery**         | [STM32F7 Discovery Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=STM32F7DISCOVERY)                         | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=STM32F7DISCOVERY)                     |
 
 ---
 
 ## Teensy
 
-Teensy boards, developed by PJRC, are compact and powerful development platforms known for their high performance and flexibility, making them suitable for a variety of applications, including audio projects.
+Teensy boards are compact, powerful development boards with a focus on performance and flexibility, suitable for audio projects and more.
 
-| **Microcontroller** | **Documentation**                                          | **Buy Link**                                                                                 |
-|---------------------|-------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| **Teensy 4.0**      | [Teensy 4.0 Documentation](https://www.pjrc.com/teensy/td_teensy40.html) | [Buy on PJRC](https://www.pjrc.com/store/teensy40.html)                                     |
-| **Teensy 4.1**      | [Teensy 4.1 Documentation](https://www.pjrc.com/teensy/td_teensy41.html) | [Buy on Adafruit](https://www.adafruit.com/product/4622)                                    |
-| **Teensy LC**       | [Teensy LC Documentation](https://www.pjrc.com/teensy/td_teensylc.html)  | [Buy on SparkFun](https://www.sparkfun.com/products/13736)                                  |
-| **Teensy 3.2**      | [Teensy 3.2 Documentation](https://www.pjrc.com/teensy/td_teensy32.html) | [Buy on PJRC](https://www.pjrc.com/store/teensy32.html)                                     |
-| **Teensy 3.5**      | [Teensy 3.5 Documentation](https://www.pjrc.com/teensy/td_teensy35.html) | [Buy on Adafruit](https://www.adafruit.com/product/3266)                                    |
-| **Teensy 3.6**      | [Teensy 3.6 Documentation](https://www.pjrc.com/teensy/td_teensy36.html) | [Buy on SparkFun](https://www.sparkfun.com/products/14057)                                  |
-| **Teensy 2.0**      | [Teensy 2.0 Documentation](https://www.pjrc.com/teensy/td_teensy20.html) | [Buy on PJRC](https://www.pjrc.com/store/teensy20.html)                                     |
-| **Teensy++ 2.0**    | [Teensy++ 2.0 Documentation](https://www.pjrc.com/teensy/td_teensypp.html) | [Buy on PJRC](https://www.pjrc.com/store/teensypp.html)                                     |
-
-## PIC Microcontrollers
-
-PIC microcontrollers, developed by Microchip Technology, are widely used in embedded systems for their reliability and extensive range.
-
-| **Microcontroller** | **Documentation** | **Buy Link** |
-|---------------------|-------------------|--------------|
-| **PIC16F877A** | [PIC16F877A Documentation](https://www.microchip.com/wwwproducts/en/PIC16F877A) | [Buy on Microchip](https://www.microchip.com/en-us/development-tools-tools-and-software/mplab-x-ide) |
-| **PIC18F4550** | [PIC18F4550 Documentation](https://www.microchip.com/wwwproducts/en/PIC18F4550) | [Buy on Digi-Key](https://www.digikey.com/en/products/detail/microchip-technology/PIC18F4550-I/PT/9288) |
-| **PIC32MX795F512L** | [PIC32MX795F512L Documentation](https://www.microchip.com/wwwproducts/en/PIC32MX795F512L) | [Buy on Mouser](https://www.mouser.com/ProductDetail/Microchip-Technology/PIC32MX795F512L-I/PT/4735) |
-| **PIC12F683** | [PIC12F683 Documentation](https://www.microchip.com/wwwproducts/en/PIC12F683) | [Buy on Microchip](https://www.microchip.com/en-us/product/PIC12F683) |
-| **PIC16F877** | [PIC16F877 Documentation](https://www.microchip.com/wwwproducts/en/PIC16F877) | [Buy on Digi-Key](https://www.digikey.com/en/products/detail/microchip-technology/PIC16F877-I/PT/410593) |
-| **PIC18F25K22** | [PIC18F25K22 Documentation](https://www.microchip.com/wwwproducts/en/PIC18F25K22) | [Buy on Mouser](https://www.mouser.com/ProductDetail/Microchip-Technology/PIC18F25K22-I/SP/491-PIC18F25K22-I/SP) |
-| **PIC24FJ64GA002** | [PIC24FJ64GA002 Documentation](https://www.microchip.com/wwwproducts/en/PIC24FJ64GA002) | [Buy on Microchip](https://www.microchip.com/en-us/product/PIC24FJ64GA002) |
-| **PIC32MX250F128B** | [PIC32MX250F128B Documentation](https://www.microchip.com/wwwproducts/en/PIC32MX250F128B) | [Buy on Digi-Key](https://www.digikey.com/en/products/detail/microchip-technology/PIC32MX250F128B-I/SP/411-PI32MX250F128B-I/SP) |
-| **PIC16F84A** | [PIC16F84A Documentation](https://www.microchip.com/wwwproducts/en/PIC16F84A) | [Buy on Mouser](https://www.mouser.com/ProductDetail/Microchip-Technology/PIC16F84A-04/P/491-PIC16F84A-04/P) |
-| **PIC18F46K22** | [PIC18F46K22 Documentation](https://www.microchip.com/wwwproducts/en/PIC18F46K22) | [Buy on Microchip](https://www.microchip.com/en-us/product/PIC18F46K22) |
+| **Microcontroller** | **Documentation**                                | **Buy Link**                                                      |
+|---------------------|--------------------------------------------------|-------------------------------------------------------------------|
+| **Teensy 4.0**      | [Teensy 4.0 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=Teensy+4.0) | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=Teensy+4.0)             |
+| **Teensy 4.1**      | [Teensy 4.1 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=Teensy+4.1) | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=Teensy+4.1)           |
+| **Teensy LC**       | [Teensy LC Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=Teensy+LC)  | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=Teensy+LC)          |
+| **Teensy 3.6**      | [Teensy 3.6 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=Teensy+3.6) | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=Teensy+3.6)             |
+| **Teensy 3.2**      | [Teensy 3.2 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=Teensy+3.2) | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=Teensy+3.2)           |
 
 ---
 
-## MSP430 Microcontrollers
+## PIC
+
+PIC microcontrollers from Microchip Technology are widely used in embedded systems for their reliability and extensive range.
+
+| **Microcontroller**       | **Documentation**                                                                        | **Buy Link**                                                                                         |
+|---------------------------|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| **PIC16F877A**            | [PIC16F877A Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=PIC16F877A)         | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=PIC16F877A) |
+| **PIC18F4550**            | [PIC18F4550 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=PIC18F4550)         | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=PIC18F4550) |
+| **PIC32MX795F512L**       | [PIC32MX795F512L Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=PIC32MX795F512L) | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=PIC32MX795F512L)  |
+| **PIC24FJ64GA002**        | [PIC24FJ64GA002 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=PIC24FJ64GA002) | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=PIC24FJ64GA002) |
+| **PIC16F877**             | [PIC16F877 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=PIC16F877)           | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=PIC16F877)                  |
+| **PIC18F26K22**           | [PIC18F26K22 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=PIC18F26K22)       | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=PIC18F26K22)      |
+
+---
+
+## MSP430
 
 MSP430 microcontrollers from Texas Instruments are known for their ultra-low power consumption, making them ideal for battery-powered applications.
 
-| **Microcontroller** | **Documentation** | **Buy Link** |
-|---------------------|-------------------|--------------|
-| **MSP430G2553** | [MSP430G2553 Documentation](https://www.ti.com/product/MSP430G2553) | [Buy on Texas Instruments](https://www.ti.com/tool/MSP-EXP430G2) |
-| **MSP430FR6989** | [MSP430FR6989 Documentation](https://www.ti.com/product/MSP430FR6989) | [Buy on Digi-Key](https://www.digikey.com/en/products/detail/texas-instruments/MSP430FR6989IRHAR/3509930) |
-| **MSP430F5529** | [MSP430F5529 Documentation](https://www.ti.com/product/MSP430F5529) | [Buy on Mouser](https://www.mouser.com/ProductDetail/Texas-Instruments/MSP430F5529IPN/595-MSP430F5529IPN) |
-| **MSP430FR2433** | [MSP430FR2433 Documentation](https://www.ti.com/product/MSP430FR2433) | [Buy on Texas Instruments](https://www.ti.com/tool/MSP-EXP430FR2433) |
-| **MSP430FR5994** | [MSP430FR5994 Documentation](https://www.ti.com/product/MSP430FR5994) | [Buy on Digi-Key](https://www.digikey.com/en/products/detail/texas-instruments/MSP430FR5994IRGZR/601-430FR5994IRGZR) |
-| **MSP430F2013** | [MSP430F2013 Documentation](https://www.ti.com/product/MSP430F2013) | [Buy on Mouser](https://www.mouser.com/ProductDetail/Texas-Instruments/MSP430F2013IPWR/595-MSP430F2013IPWR) |
-| **MSP430FR2311** | [MSP430FR2311 Documentation](https://www.ti.com/product/MSP430FR2311) | [Buy on Texas Instruments](https://www.ti.com/tool/MSP-EXP430FR2311) |
-| **MSP430F149** | [MSP430F149 Documentation](https://www.ti.com/product/MSP430F149) | [Buy on Digi-Key](https://www.digikey.com/en/products/detail/texas-instruments/MSP430F149IPMR/296-430F149IPMR) |
-| **MSP430FR4133** | [MSP430FR4133 Documentation](https://www.ti.com/product/MSP430FR4133) | [Buy on Mouser](https://www.mouser.com/ProductDetail/Texas-Instruments/MSP430FR4133IRGER/595-MSP430FR4133IRGER) |
-| **MSP430F5528** | [MSP430F5528 Documentation](https://www.ti.com/product/MSP430F5528) | [Buy on Texas Instruments](https://www.ti.com/product/MSP430F5528) |
+| **Microcontroller** | **Documentation**                                                        | **Buy Link**                                                                                             |
+|---------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| **MSP430G2553**     | [MSP430G2553 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=MSP430G2553)      | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=MSP430G2553)                                       |
+| **MSP430FR6989**    | [MSP430FR6989 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=MSP430FR6989)    | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=MSP430FR6989) |
+| **MSP430F5529**     | [MSP430F5529 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=MSP430F5529)      | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=MSP430F5529)               |
+| **MSP430G2231**     | [MSP430G2231 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=MSP430G2231)      | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=MSP430G2231)                                       |
+| **MSP430FR6987**    | [MSP430FR6987 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=MSP430FR6987)    | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=MSP430FR6987) |
+| **MSP430F149**      | [MSP430F149 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=MSP430F149)        | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=MSP430F149)                |
+
+---
+
+## NXP
+
+NXP offers a range of high-performance microcontrollers suitable for automotive, industrial, and consumer applications. This category includes various families such as LPC, Kinetis, i.MX, and S32.
+
+### LPC Series
+
+The LPC family is based on ARM Cortex-M cores, offering a balance of performance and power efficiency.
+
+| **Microcontroller**    | **Documentation**                                                                 | **Buy Link**                                                                                              |
+|------------------------|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| **NXP LPC1768**        | [LPC1768 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=LPC1768)        | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=LPC1768)                                   |
+| **NXP LPC4330**        | [LPC4330 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=LPC4330)        | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=LPC4330)             |
+| **NXP LPC824**         | [LPC824 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=LPC824M101JBD64) | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=LPC824M101JBD64)                                |
+| **NXP LPC54608**       | [LPC54608 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=LPC54608J512BD64) | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=LPC54608J512BD64)           |
+| **NXP LPC812**         | [LPC812 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=LPC812M101JDH20) | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=LPC812M101JDH20)                                 |
+
+### Kinetis Series
+
+The Kinetis family is known for its high-performance ARM Cortex-M processors, ideal for a wide range of applications from consumer electronics to industrial automation.
+
+| **Microcontroller**     | **Documentation**                                                                  | **Buy Link**                                                                                                 |
+|-------------------------|------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| **NXP Kinetis K64**     | [Kinetis K64 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=K64F120M72M48V2) | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=K64F120M72M48V2)                |
+| **NXP Kinetis K22**     | [Kinetis K22 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=K22FA12M48SF0) | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=K22FA12M48SF0)                                       |
+| **NXP Kinetis K82**     | [Kinetis K82 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=K82FN512M70M80) | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=K82FN512M70M80)                |
+| **NXP Kinetis KL25Z**   | [Kinetis KL25Z Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=KL25Z4)     | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=KL25Z4)                                              |
+| **NXP Kinetis K66**     | [Kinetis K66 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=K66FN2M0M72SF0) | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=K66FN2M0M72SF0)                |
+
+### i.MX Series
+
+The i.MX family provides high-performance applications processors suitable for multimedia, automotive, and industrial applications.
+
+| **Microcontroller**      | **Documentation**                                                                 | **Buy Link**                                                                                                      |
+|--------------------------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| **NXP i.MX RT1060**      | [i.MX RT1060 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=i.MX+RT1060UM) | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=i.MX+RT1060UM)                                                  |
+| **NXP i.MX 8M Mini**     | [i.MX 8M Mini Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=i.MX8MM)      | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=i.MX8MM)                     |
+| **NXP i.MX 8M Nano**     | [i.MX 8M Nano Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=i.MX8MN)      | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=i.MX8MN)                                           |
+| **NXP i.MX 8M Plus**     | [i.MX 8M Plus Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=i.MX8MP)      | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=i.MX8MP)                     |
+| **NXP i.MX 7Dual**       | [i.MX 7Dual Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=i.MX7D)          | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=i.MX7D)                                                   |
+| **NXP i.MX 6SoloX**      | [i.MX 6SoloX Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=i.MX6SX)        | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=i.MX6SX)                      |
+
+### S32 Series
+
+The S32 family is designed for automotive applications, offering high performance and safety features.
+
+| **Microcontroller**   | **Documentation**                                                               | **Buy Link**                                                                                                   |
+|-----------------------|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| **NXP S32K144**       | [S32K144 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=S32K144)    | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=S32K144)                                    |
+| **NXP S32V234**       | [S32V234 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=S32V234)    | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=S32V234)                              |
+| **NXP S32K118**       | [S32K118 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=S32K118)    | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=S32K118)                                                |
+| **NXP S32V245**       | [S32V245 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=S32V245)    | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=S32V245)                                              |
+
+### Other NXP Microcontrollers
+
+| **Microcontroller**    | **Documentation**                                                                   | **Buy Link**                                                                                               |
+|------------------------|-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| **NXP LPC845**         | [LPC845 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=LPC845M301JBD64)  | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=LPC845M301JBD64)                                 |
+| **NXP LPC5500**        | [LPC5500 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=LPC55S69JBD100)  | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=LPC55S69JBD100)           |
+| **NXP LPC800**         | [LPC800 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=LPC824M101JBD64)  | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=LPC824M101JBD64)                                  |
+| **NXP i.MX RT1050**    | [i.MX RT1050 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=i.MX-RT1050UM) | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=i.MX-RT1050UM)                                         |
+| **NXP LPC54018**       | [LPC54018 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=LPC54018JBD100) | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=LPC54018JBD100)           |
+
+---
 
 ## BeagleBone
 
 BeagleBone boards are open-source development platforms designed for developers and hobbyists to build complex projects.
 
-| **Microcontroller**   | **Documentation**                          | **Buy Link**                                                                 |
-|-----------------------|--------------------------------------------|------------------------------------------------------------------------------|
-| **BeagleBone Black**  | [BeagleBone Black Documentation](https://beagleboard.org/black) | [Buy on BeagleBoard](https://beagleboard.org/black)                         |
-| **BeagleBone AI-64**  | [BeagleBone AI-64 Documentation](https://beagleboard.org/ai-64) | [Buy on BeagleBoard](https://beagleboard.org/ai-64)                         |
-| **BeagleBone Green**  | [BeagleBone Green Documentation](https://www.seeedstudio.com/BeagleBone-Green-p-2564.html) | [Buy on Seeed Studio](https://www.seeedstudio.com/BeagleBone-Green-p-2564.html) |
-| **BeagleBone Blue**   | [BeagleBone Blue Documentation](https://beagleboard.org/blue) | [Buy on BeagleBoard](https://beagleboard.org/blue)                          |
-| **PocketBeagle**      | [PocketBeagle Documentation](https://beagleboard.org/pocket) | [Buy on BeagleBoard](https://beagleboard.org/pocket)                        |
+| **Microcontroller**               | **Documentation**                                                    | **Buy Link**                                          |
+|-----------------------------------|----------------------------------------------------------------------|-------------------------------------------------------|
+| **BeagleBone Black**              | [BeagleBone Black Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=BeagleBone+Black)     | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=BeagleBone+Black)    |
+| **BeagleBone AI**                 | [BeagleBone AI Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=BeagleBone+AI)           | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=BeagleBone+AI)       |
+| **BeagleBone Blue**               | [BeagleBone Blue Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=BeagleBone+Blue)       | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=BeagleBone+Blue)     |
+| **BeagleBone Green**              | [BeagleBone Green Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=BeagleBone+Green)     | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=BeagleBone+Green) |
+| **BeagleBone Green Wireless**     | [BeagleBone Green Wireless Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=BeagleBone+Green+Wireless) | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=BeagleBone+Green+Wireless) |
 
 ---
 
-## Renesas RX Family
+## Other Microcontrollers
 
-The Renesas RX Family offers a wide range of 32-bit microcontrollers designed for high performance and low power consumption, suitable for various applications.
+### ATmega
 
-| **Microcontroller**   | **Documentation**                          | **Buy Link**                                                                 |
-|-----------------------|--------------------------------------------|------------------------------------------------------------------------------|
-| **RX65N**             | [RX65N Documentation](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx65n-group) | [Buy on Renesas](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx65n-group) |
-| **RX72N**             | [RX72N Documentation](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx72n-group) | [Buy on Renesas](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx72n-group) |
-| **RX231**             | [RX231 Documentation](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx231-group) | [Buy on Renesas](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx231-group) |
-| **RX111**             | [RX111 Documentation](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx111-group) | [Buy on Renesas](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx111-group) |
-| **RX23W**             | [RX23W Documentation](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx23w-group) | [Buy on Renesas](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx23w-group) |
+ATmega microcontrollers are popular for their use in various Arduino boards and other embedded applications.
 
----
+| **Microcontroller** | **Documentation**                                                                        | **Buy Link**                                                                                     |
+|---------------------|------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| **ATmega328P**      | [ATmega328P Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=ATmega328P)           | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=ATmega328P)                                      |
+| **ATmega2560**      | [ATmega2560 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=ATmega2560)           | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=ATmega2560)                                       |
+| **ATmega32U4**      | [ATmega32U4 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=ATmega32U4)           | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=ATmega32U4)                                      |
+| **ATmega1284P**     | [ATmega1284P Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=ATmega1284P)         | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=ATmega1284P)      |
+| **ATmega4809**      | [ATmega4809 Datasheet](https://www.alldatasheet.com/view.jsp?Searchword=ATmega4809)           | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=ATmega4809) |
 
-## Infineon XMC Family
+### Raspberry Pi Pico
 
-The XMC family, developed by Infineon Technologies, is based on Arm® Cortex®-M cores and is dedicated to applications in power conversion, factory and building automation, transportation, and home appliances.
+Raspberry Pi Pico is a low-cost, high-performance microcontroller board built on the Raspberry Pi RP2040.
 
-| **Microcontroller**   | **Documentation**                          | **Buy Link**                                                                 |
-|-----------------------|--------------------------------------------|------------------------------------------------------------------------------|
-| **XMC1300**           | [XMC1300 Documentation](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1300/) | [Buy on Infineon](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1300/) |
-| **XMC4000**           | [XMC4000 Documentation](https://documentation.infineon.com/xmc4000/docs/ekv1706521668252) | [Buy on Infineon](https://documentation.infineon.com/xmc4000/docs/ekv1706521668252) |
-| **XMC7000**           | [XMC7000 Documentation](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc7000-industrial-microcontroller-arm-cortex-m7/) | [Buy on Infineon](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc7000-industrial-microcontroller-arm-cortex-m7/) |
-| **XMC1100**           | [XMC1100 Documentation](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1100/) | [Buy on Infineon](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1100/) |
-| **XMC4500**           | [XMC4500 Documentation](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc4000-industrial-microcontroller-arm-cortex-m4/xmc4500/) | [Buy on Infineon](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc4000-industrial-microcontroller-arm-cortex-m4/xmc4500/) |
+| **Microcontroller**     | **Documentation**                                                                 | **Buy Link**                                                                                          |
+|-------------------------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Raspberry Pi Pico**   | [Raspberry Pi Pico Documentation](https://www.raspberrypi.com/documentation/microcontrollers/) | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=Raspberry+Pi+Pico)                        |
+| **Raspberry Pi Pico W** | [Raspberry Pi Pico W Documentation](https://www.raspberrypi.com/documentation/microcontrollers/) | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=Raspberry+Pi+Pico+W)                                    |
+| **Raspberry Pi Pico H** | [Raspberry Pi Pico H Documentation](https://www.raspberrypi.com/documentation/microcontrollers/) | [Buy on Mouser UK](https://www.mouser.co.uk/c/?q=Raspberry+Pi+Pico+H)                                         |
 
 ---
 
-
-## ELAN Microelectronics
-
-ELAN Microelectronics Corporation specializes in microcontroller integrated circuits, offering a variety of solutions for different applications.
-
-| **Microcontroller** | **Documentation** | **Buy Link** |
-|---------------------|-------------------|--------------|
-| **EM78P153** | [EM78P153 Documentation](https://www.emc.com.tw/upload/2019_01_15%280_0%29b2/EM78P153.pdf) | [Buy on Sourcengine](https://www.sourcengine.com/part-info/EM78P153-8324355235) |
-| **EM78P156N** | [EM78P156N Documentation](https://www.emc.com.tw/upload/2019_01_15%280_0%29b2/EM78P156N.pdf) | [Buy on Sourcengine](https://www.sourcengine.com/part-info/EM78P156N-8324355235) |
-| **EM78P257** | [EM78P257 Documentation](https://www.emc.com.tw/upload/2019_01_15%280_0%29b2/EM78P257.pdf) | [Buy on Sourcengine](https://www.sourcengine.com/part-info/EM78P257-8324355235) |
-| **EM78P447N** | [EM78P447N Documentation](https://www.emc.com.tw/upload/2019_01_15%280_0%29b2/EM78P447N.pdf) | [Buy on Sourcengine](https://www.sourcengine.com/part-info/EM78P447N-8324355235) |
-| **EM78P458** | [EM78P458 Documentation](https://www.emc.com.tw/upload/2019_01_15%280_0%29b2/EM78P458.pdf) | [Buy on Sourcengine](https://www.sourcengine.com/part-info/EM78P458-8324355235) |
-| **EM78P459** | [EM78P459 Documentation](https://www.emc.com.tw/upload/2019_01_15%280_0%29b2/EM78P459.pdf) | [Buy on Sourcengine](https://www.sourcengine.com/part-info/EM78P459-8324355235) |
-| **EM78P418N** | [EM78P418N Documentation](https://www.emc.com.tw/upload/2019_01_15%280_0%29b2/EM78P418N.pdf) | [Buy on Sourcengine](https://www.sourcengine.com/part-info/EM78P418N-8324355235) |
-| **EM78P419N** | [EM78P419N Documentation](https://www.emc.com.tw/upload/2019_01_15%280_0%29b2/EM78P419N.pdf) | [Buy on Sourcengine](https://www.sourcengine.com/part-info/EM78P419N-8324355235) |
-| **EM78P809N** | [EM78P809N Documentation](https://www.emc.com.tw/upload/2019_01_15%280_0%29b2/EM78P809N.pdf) | [Buy on Sourcengine](https://www.sourcengine.com/part-info/EM78P809N-8324355235) |
-| **EM78F811N** | [EM78F811N Documentation](https://www.emc.com.tw/upload/2019_01_15%280_0%29b2/EM78F811N.pdf) | [Buy on ELAN Microelectronics](https://www.emc.com.tw/emc/en/Product/Product/detail/137) |
-
-## Microcontroller Comparison Table
 ## Microcontroller Comparison Table
 
 This table provides a comparative overview of various microcontroller platforms, highlighting key specifications to assist in selecting the appropriate board for your project.
