@@ -57,52 +57,6 @@ ESP32 is a powerful Wi-Fi and Bluetooth-enabled microcontroller developed by Esp
 
 
 
-# Comprehensive List of Microcontrollers
-
-This document provides a categorized list of popular microcontrollers, their official documentation, and links to purchase them. The microcontrollers are grouped into families such as Arduino, ESP32, STM32, Teensy, and others for easier navigation.
-
-## Table of Contents
-
-- [Arduino](#arduino)
-- [ESP32](#esp32)
-- [STM32](#stm32)
-- [Teensy](#teensy)
-- [PIC](#pic)
-- [MSP430](#msp430)
-- [NXP](#nxp)
-- [BeagleBone](#beaglebone)
-- [Other Microcontrollers](#other-microcontrollers)
-- [Additional Resources](#additional-resources)
-
----
-
-## Arduino
-
-Arduino is a popular open-source electronics platform based on easy-to-use hardware and software. It is widely used for building digital devices and interactive objects.
-
-| **Microcontroller**        | **Documentation**                                                                 | **Buy Link**                                                                                     |
-|----------------------------|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| **Arduino Uno**            | [Arduino Uno Documentation](https://www.arduino.cc/en/Guide/ArduinoUno)           | [Buy on Arduino Store](https://store.arduino.cc/products/arduino-uno-rev3)                      |
-| **Arduino Mega 2560**      | [Arduino Mega Documentation](https://www.arduino.cc/en/Guide/ArduinoMega2560)     | [Buy on Arduino Store](https://store.arduino.cc/products/arduino-mega-2560-r3)                   |
-| **Arduino Nano**           | [Arduino Nano Documentation](https://www.arduino.cc/en/Guide/ArduinoNano)         | [Buy on SparkFun](https://www.sparkfun.com/products/15623)                                      |
-| **Arduino Leonardo**       | [Arduino Leonardo Documentation](https://www.arduino.cc/en/Guide/ArduinoLeonardo) | [Buy on Adafruit](https://www.adafruit.com/product/4298)                                       |
-
----
-
-## ESP32
-
-ESP32 is a powerful Wi-Fi and Bluetooth-enabled microcontroller developed by Espressif Systems, suitable for a wide range of IoT applications.
-
-| **Microcontroller**    | **Documentation**                                                                                               | **Buy Link**                                                                                                          |
-|------------------------|-----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| **ESP32 DevKitC**      | [ESP32 DevKitC Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/dev-boards.html) | [Buy on Espressif Store](https://www.espressif.com/en/products/devkits/esp32-devkitc/overview)                        |
-| **ESP32-WROOM-32**     | [ESP32-WROOM-32 Documentation](https://www.espressif.com/en/products/modules/esp32)                            | [Buy on Digi-Key](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-WROOM-32D/7895131)                  |
-| **ESP32 Pico Kit**     | [ESP32 Pico Kit Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32pico.html) | [Buy on Mouser](https://www.mouser.co.uk/c/?q=ESP32-PICO-KIT)  |
-| **ESP32-S2-Saola-1**   | [ESP32-S2-Saola-1 Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/get-started/index.html) | [Buy on SparkFun](https://www.sparkfun.com/products/retired/15258)                                                 |
-| **ESP32-C3-DevKitM-1** | [ESP32-C3-DevKitM-1 Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/get-started/index.html) | [Buy on Digi-Key](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C3-DEVKITM-1/11934230)              |
-
----
-
 ## STM32
 
 STM32 is a family of 32-bit microcontrollers from STMicroelectronics, known for their performance and versatility in various applications.
