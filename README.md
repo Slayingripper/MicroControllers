@@ -1,6 +1,6 @@
 # Comprehensive List of Microcontrollers
 
-This document provides a categorized list of popular microcontrollers, their official documentation, and links to purchase them. The microcontrollers are grouped into families such as Arduino, ESP32, STM32, Teensy, and others for easier navigation.
+This document provides a categorized list of popular microcontrollers, their official documentation, and links to purchase them. The microcontrollers are grouped into families such as Arduino, ESP32, STM32, Teensy, and others for easier navigation. This is not an extensive list
 
 ## Table of Contents
 
