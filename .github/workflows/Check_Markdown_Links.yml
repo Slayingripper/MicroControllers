@@ -1,21 +1,35 @@
 name: Check Markdown Links
 
+# Trigger the workflow on push or pull request events affecting Markdown files
 on:
   push:
-    branches:
-      - main
+    paths:
+      - '**/*.md'
   pull_request:
-  schedule:
-    - cron: '0 9 * * 1'  # Runs every Monday at 9 AM
+    paths:
+      - '**/*.md'
 
 jobs:
-  markdown-link-check:
+  link-check:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - name: Run markdown-link-check
-        uses: gaurav-nelson/github-action-markdown-link-check@v1
+      # 1. Check out the repository code
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # 2. Set up Node.js environment
+      - name: Set Up Node.js
+        uses: actions/setup-node@v3
         with:
-          use-quiet-mode: 'yes'
-          use-verbose-mode: 'yes'
-          config-file: '.github/markdown-link-check-config.json'
+          node-version: '16'  # You can specify the Node.js version you prefer
+
+      # 3. Install markdown-link-check globally
+      - name: Install markdown-link-check
+        run: npm install -g markdown-link-check
+
+      # 4. Run markdown-link-check on all Markdown files
+      - name: Run Link Checker
+        run: |
+          # Find all .md files and run markdown-link-check on them
+          find . -name "*.md" | xargs markdown-link-check
